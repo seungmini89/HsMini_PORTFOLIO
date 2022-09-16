@@ -360,15 +360,15 @@ header .btnMenu {
 }
 #project .proj_box .megaImg .megaWeb {
   width: 15vw;
-  border: 1px solid rgb(229, 48, 48);
+  border: 1px solid #915151;
 }
 #project .proj_box .megaImg .megaTab {
   width: 15vw;
-  border: 1px solid rgb(229, 48, 48);
+  border: 1px solid #915151;
 }
 #project .proj_box .megaImg .megaMob {
   width: 15vw;
-  border: 1px solid rgb(229, 48, 48);
+  border: 1px solid #915151;
 }
 #project .pofol {
   position: absolute;
