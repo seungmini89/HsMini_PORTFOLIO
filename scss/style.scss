@@ -514,6 +514,9 @@ header {
 }
 
 @media screen and (max-width: 960px) {
+  body {
+    height: 3800px;
+  }
   #homePg {
     .homeTit {
       left: 11vw;
@@ -547,7 +550,7 @@ header {
       display: block;
       text-align: center;
       img {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
       .pf_txt {
         position: static;
@@ -556,7 +559,7 @@ header {
         .myName {
           margin-bottom: 10px;
           strong {
-            font: 500 35px/1 "Noto Sans KR";
+            font: 500 32px/1 "Noto Sans KR";
           }
           span {
             font: 25px/1.5 "Nanum Pen Script";
@@ -564,7 +567,6 @@ header {
         }
         .motto {
           margin: 0 auto;
-          width: 400px;
           font: 20px/1.5 "Nanum Pen Script";
         }
       }
@@ -582,7 +584,7 @@ header {
           }
         }
         .ht_txt {
-          width: 80vw;
+          width: 80.5vw;
         }
       }
     }
@@ -657,6 +659,7 @@ header {
     }
   }
   #footer {
+    height: 800px;
     .footer_tit {
       font: 500 8vw/1 'Noto Sans KR';
     }
@@ -665,6 +668,9 @@ header {
       li i {
         font-size: 80px;
       }
+    }
+    .copy {
+      font: 15px/1.5 'Noto Sans KR';
     }
   }
 }
@@ -689,46 +695,93 @@ header {
       }
     }
   }
+  #homePg {
+    .homeTag3 {
+      right: 7vw;
+      font: bolder 12vw/1 'Noto Sans KR';
+    }
+  }
   #aboutMe {
     .secM_1 {
-      position: static;
-      // margin: 100px 40%;
       .pf_txt {
-        margin: 30px 0;
-        .myName {
-          margin: 5px 0 10px;
-        }
         .motto {
-          position: static;
-          // margin-left: -30px;
-          // width: 200px;
-          // text-align: center;
-          // font: 2vw/1.5 "Nanum Pen Script";
+          font: 21px/1.2 "Nanum Pen Script";
         }
       }
     }
     .secM_2 {
-      top: 450px;
+      left: 8vw;
+      top: 440px;
+      font: 13px/1.5 "Noto Sans KR";
+      ul {
+        margin-bottom: 54px;
+        .ht_txt {
+          width: 82vw;
+        }
+      }
     }
     .secM_3 {
-      top: 450px;
+      top: 440px;
+      right: 8vw;
+      font: 13px/1.5 "Noto Sans KR";
+    }
+  }
+  #project {
+    .proj_box {
+      &:before {
+        font: 14px/1 'Noto Sans KR';
+      }
+      .proj_txt {
+        top: 50px;
+        left: 80px;
+        ul {
+          & li:nth-of-type(2) {
+            margin-bottom: 35px;
+          }
+          & li:nth-of-type(4) {
+            a {
+              top: 155px;
+            }
+          }
+        }
+      }
+      .megaImg {
+        width: 65%;
+        top: 300px;
+        right: 15%;
+      }
+    }
+    .pofol {
+      right: 8vw;
+      font: 14px/1 'Noto Sans KR';
+      a {
+        width: 60px;
+        font: 11px/30px 'Noto Sans KR';
+      }
     }
   }
   #footer {
     .footer_tit {
-      font: 500 8vw/1 'Noto Sans KR';
+      font: 500 50px/1 'Noto Sans KR';
     }
     ul {
-      width: 50vw;
+      width: 60vw;
       li i {
-        font-size: 80px;
+        font-size: 60px;
       }
+    }
+    .copy {
+      font: 10px/1.5 'Noto Sans KR';
     }
   }
 }
 
 @media screen and (max-width: 450px) {
+  body {
+    height: 3400px;
+  }
   #homePg {
+    height: 850px;
     .homeTit {
       top: 340px;
       left: 10vw;
@@ -757,6 +810,7 @@ header {
     }
   }
   #aboutMe {
+    height: 850px;
     // position: static;
     // margin: 40px;
     .secM_1 {
@@ -771,9 +825,9 @@ header {
           // margin: 5px 0 10px;
         }
         .motto {
-          position: static;
+          // position: static;
           // margin-left: -30px;
-          // width: 200px;
+          width: 90%;
           // text-align: center;
           // font: 2vw/1.5 "Nanum Pen Script";
         }
@@ -786,15 +840,48 @@ header {
       display: none;
     }
   }
+  #project {
+    height: 850px;
+    .proj_box {
+      height: 500px;
+      .proj_txt {
+        left: 50px;
+        ul {
+          & li:nth-of-type(4) {
+            a {
+              right: -80px;
+            }
+          }
+        }
+      }
+      .megaImg {
+        width: 75%;
+        top: 270px;
+        right: 12%;
+      }
+    }
+    .pofol {
+      right: 8vw;
+      font: 14px/1 'Noto Sans KR';
+      a {
+        width: 60px;
+        font: 11px/30px 'Noto Sans KR';
+      }
+    }
+  }
   #footer {
     .footer_tit {
-      font: 500 8vw/1 'Noto Sans KR';
+      font: 500 50px/1 'Noto Sans KR';
     }
     ul {
-      width: 50vw;
+      width: 60vw;
       li i {
-        font-size: 80px;
+        font-size: 60px;
       }
+    }
+    .copy {
+      width: 85%;
+      font: 13px/1.5 'Noto Sans KR';
     }
   }
 }

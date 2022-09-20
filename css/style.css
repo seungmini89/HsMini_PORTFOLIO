@@ -507,6 +507,9 @@ header .btnMenu {
   }
 }
 @media screen and (max-width: 960px) {
+  body {
+    height: 3800px;
+  }
   #homePg .homeTit {
     left: 11vw;
     font: 4.2vw/1.8 "Noto Sans KR";
@@ -540,7 +543,7 @@ header .btnMenu {
     text-align: center;
   }
   #aboutMe .secM_1 img {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #aboutMe .secM_1 .pf_txt {
     position: static;
@@ -551,14 +554,13 @@ header .btnMenu {
     margin-bottom: 10px;
   }
   #aboutMe .secM_1 .pf_txt .myName strong {
-    font: 500 35px/1 "Noto Sans KR";
+    font: 500 32px/1 "Noto Sans KR";
   }
   #aboutMe .secM_1 .pf_txt .myName span {
     font: 25px/1.5 "Nanum Pen Script";
   }
   #aboutMe .secM_1 .pf_txt .motto {
     margin: 0 auto;
-    width: 400px;
     font: 20px/1.5 "Nanum Pen Script";
   }
   #aboutMe .secM_2 {
@@ -576,7 +578,7 @@ header .btnMenu {
     font: 15px/1 "Noto Sans KR";
   }
   #aboutMe .secM_2 ul .ht_txt {
-    width: 80vw;
+    width: 80.5vw;
   }
   #aboutMe .secM_3 {
     top: 520px;
@@ -639,6 +641,9 @@ header .btnMenu {
     top: 240px;
     right: 110px;
   }
+  #footer {
+    height: 800px;
+  }
   #footer .footer_tit {
     font: 500 8vw/1 "Noto Sans KR";
   }
@@ -647,6 +652,9 @@ header .btnMenu {
   }
   #footer ul li i {
     font-size: 80px;
+  }
+  #footer .copy {
+    font: 15px/1.5 "Noto Sans KR";
   }
 }
 @media screen and (max-width: 700px) {
@@ -669,35 +677,75 @@ header .btnMenu {
     font: 12px/1 "Architects Daughter", cursive;
     letter-spacing: 1px;
   }
-  #aboutMe .secM_1 {
-    position: static;
-  }
-  #aboutMe .secM_1 .pf_txt {
-    margin: 30px 0;
-  }
-  #aboutMe .secM_1 .pf_txt .myName {
-    margin: 5px 0 10px;
+  #homePg .homeTag3 {
+    right: 7vw;
+    font: bolder 12vw/1 "Noto Sans KR";
   }
   #aboutMe .secM_1 .pf_txt .motto {
-    position: static;
+    font: 21px/1.2 "Nanum Pen Script";
   }
   #aboutMe .secM_2 {
-    top: 450px;
+    left: 8vw;
+    top: 440px;
+    font: 13px/1.5 "Noto Sans KR";
+  }
+  #aboutMe .secM_2 ul {
+    margin-bottom: 54px;
+  }
+  #aboutMe .secM_2 ul .ht_txt {
+    width: 82vw;
   }
   #aboutMe .secM_3 {
-    top: 450px;
+    top: 440px;
+    right: 8vw;
+    font: 13px/1.5 "Noto Sans KR";
+  }
+  #project .proj_box:before {
+    font: 14px/1 "Noto Sans KR";
+  }
+  #project .proj_box .proj_txt {
+    top: 50px;
+    left: 80px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(2) {
+    margin-bottom: 35px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(4) a {
+    top: 155px;
+  }
+  #project .proj_box .megaImg {
+    width: 65%;
+    top: 300px;
+    right: 15%;
+  }
+  #project .pofol {
+    right: 8vw;
+    font: 14px/1 "Noto Sans KR";
+  }
+  #project .pofol a {
+    width: 60px;
+    font: 11px/30px "Noto Sans KR";
   }
   #footer .footer_tit {
-    font: 500 8vw/1 "Noto Sans KR";
+    font: 500 50px/1 "Noto Sans KR";
   }
   #footer ul {
-    width: 50vw;
+    width: 60vw;
   }
   #footer ul li i {
-    font-size: 80px;
+    font-size: 60px;
+  }
+  #footer .copy {
+    font: 10px/1.5 "Noto Sans KR";
   }
 }
 @media screen and (max-width: 450px) {
+  body {
+    height: 3400px;
+  }
+  #homePg {
+    height: 850px;
+  }
   #homePg .homeTit {
     top: 340px;
     left: 10vw;
@@ -724,11 +772,14 @@ header .btnMenu {
     text-align: center;
     letter-spacing: 5px;
   }
+  #aboutMe {
+    height: 850px;
+  }
   #aboutMe .secM_1 img {
     width: 180px;
   }
   #aboutMe .secM_1 .pf_txt .motto {
-    position: static;
+    width: 90%;
   }
   #aboutMe .secM_2 {
     display: none;
@@ -736,14 +787,43 @@ header .btnMenu {
   #aboutMe .secM_3 {
     display: none;
   }
+  #project {
+    height: 850px;
+  }
+  #project .proj_box {
+    height: 500px;
+  }
+  #project .proj_box .proj_txt {
+    left: 50px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(4) a {
+    right: -80px;
+  }
+  #project .proj_box .megaImg {
+    width: 75%;
+    top: 270px;
+    right: 12%;
+  }
+  #project .pofol {
+    right: 8vw;
+    font: 14px/1 "Noto Sans KR";
+  }
+  #project .pofol a {
+    width: 60px;
+    font: 11px/30px "Noto Sans KR";
+  }
   #footer .footer_tit {
-    font: 500 8vw/1 "Noto Sans KR";
+    font: 500 50px/1 "Noto Sans KR";
   }
   #footer ul {
-    width: 50vw;
+    width: 60vw;
   }
   #footer ul li i {
-    font-size: 80px;
+    font-size: 60px;
+  }
+  #footer .copy {
+    width: 85%;
+    font: 13px/1.5 "Noto Sans KR";
   }
 }
 
