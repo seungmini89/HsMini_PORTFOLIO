@@ -154,7 +154,7 @@ header .btnMenu {
 }
 #aboutMe .secM_1 {
   position: absolute;
-  top: 180px;
+  top: 200px;
   left: 140px;
 }
 #aboutMe .secM_1 img {
@@ -293,7 +293,8 @@ header .btnMenu {
   color: #2c2c2c;
 }
 #project .proj_box {
-  width: 80vw;
+  position: relative;
+  width: 85%;
   height: 660px;
   background: #2a2a2a;
   position: relative;
@@ -333,9 +334,6 @@ header .btnMenu {
   font: 1vw/24px "Noto Sans KR";
   margin-bottom: 80px;
 }
-#project .proj_box .proj_txt ul li:nth-of-type(4) {
-  margin-bottom: 80px;
-}
 #project .proj_box .proj_txt ul li:nth-of-type(4) a {
   display: block;
   width: 80px;
@@ -350,25 +348,14 @@ header .btnMenu {
   color: #000;
 }
 #project .proj_box .megaImg {
-  width: 50vw;
-  height: 500px;
-  display: flex;
-  justify-content: space-between;
   position: absolute;
   top: 80px;
-  right: 80px;
+  right: 140px;
+  width: 800px;
+  height: 500px;
 }
-#project .proj_box .megaImg .megaWeb {
-  width: 15vw;
-  border: 1px solid #915151;
-}
-#project .proj_box .megaImg .megaTab {
-  width: 15vw;
-  border: 1px solid #915151;
-}
-#project .proj_box .megaImg .megaMob {
-  width: 15vw;
-  border: 1px solid #915151;
+#project .proj_box .megaImg .megaWeb img {
+  width: 100%;
 }
 #project .pofol {
   position: absolute;
@@ -445,16 +432,9 @@ header .btnMenu {
     top: 600px;
   }
   #project .proj_box .megaImg {
-    width: 40vw;
-  }
-  #project .proj_box .megaImg .megaWeb {
-    width: 18vw;
-  }
-  #project .proj_box .megaImg .megaTab {
-    display: none;
-  }
-  #project .proj_box .megaImg .megaMob {
-    width: 18vw;
+    width: 680px;
+    top: 100px;
+    right: 80px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -506,7 +486,6 @@ header .btnMenu {
   }
   #aboutMe .secM_3 {
     top: 390px;
-    left: 55vw;
     font: 1.3vw/1.6 "Noto Sans KR";
   }
   #aboutMe .secM_3 .secM3_tit {
@@ -518,11 +497,16 @@ header .btnMenu {
   #aboutMe .secM_3 .skill_icon {
     width: 30vw;
   }
+  #project .proj_box .megaImg {
+    width: 500px;
+    top: 170px;
+    right: 80px;
+  }
   #footer .footer_tit {
     font: 500 7vw/1 "Noto Sans KR";
   }
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
   #homePg .homeTit {
     left: 11vw;
     font: 4.2vw/1.8 "Noto Sans KR";
@@ -547,25 +531,113 @@ header .btnMenu {
     text-align: left;
     letter-spacing: 10px;
   }
-  #aboutMe .secM_1 {
-    margin-left: 24%;
-    display: flex;
-    flex-direction: column;
+  #aboutMe {
+    padding-top: 100px;
   }
-  #aboutMe .secM_1 .pf_txt {
-    margin: 30px -30%;
-    width: 100%;
+  #aboutMe .secM_1 {
     position: static;
+    display: block;
     text-align: center;
   }
+  #aboutMe .secM_1 img {
+    margin-bottom: 30px;
+  }
+  #aboutMe .secM_1 .pf_txt {
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #aboutMe .secM_1 .pf_txt .myName {
+    margin-bottom: 10px;
+  }
+  #aboutMe .secM_1 .pf_txt .myName strong {
+    font: 500 35px/1 "Noto Sans KR";
+  }
+  #aboutMe .secM_1 .pf_txt .myName span {
+    font: 25px/1.5 "Nanum Pen Script";
+  }
   #aboutMe .secM_1 .pf_txt .motto {
-    font: 2vw/1.5 "Nanum Pen Script";
+    margin: 0 auto;
+    width: 400px;
+    font: 20px/1.5 "Nanum Pen Script";
   }
   #aboutMe .secM_2 {
-    top: 450px;
+    left: 11vw;
+    top: 520px;
+    font: 15px/1.5 "Noto Sans KR";
+  }
+  #aboutMe .secM_2 ul {
+    margin-bottom: 32px;
+  }
+  #aboutMe .secM_2 ul .secM2_tit {
+    font: 500 20px/2 "Noto Sans KR";
+  }
+  #aboutMe .secM_2 ul .secM2_tit span {
+    font: 15px/1 "Noto Sans KR";
+  }
+  #aboutMe .secM_2 ul .ht_txt {
+    width: 80vw;
   }
   #aboutMe .secM_3 {
-    top: 450px;
+    top: 520px;
+    right: 11vw;
+    font: 15px/1.5 "Noto Sans KR";
+  }
+  #aboutMe .secM_3 ul {
+    margin-bottom: 10px;
+  }
+  #aboutMe .secM_3 .secM3_tit {
+    font: 500 20px/2 "Noto Sans KR";
+  }
+  #aboutMe .secM_3 .ability li:nth-of-type(2) span {
+    font: 13px/1 "Noto Sans KR";
+  }
+  #aboutMe .secM_3 .skill_icon {
+    width: 35vw;
+  }
+  #aboutMe .secM_3 .skill_icon li {
+    margin: 5px 20px 10px 0;
+    width: 30px;
+  }
+  #project .proj_box .proj_txt {
+    top: 50px;
+    left: 80px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(1) {
+    font: 22px/1 "Noto Sans KR";
+    margin-bottom: 20px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(2) {
+    font: 500 40px/1 "Noto Sans KR";
+    margin-bottom: 20px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(2) span {
+    font: 30px/1 "Noto Sans KR";
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(3) {
+    font: 14px/24px "Noto Sans KR";
+    margin-bottom: 80px;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(4) a {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    font: 13px/2 "Noto Sans KR";
+    color: #eaeaea;
+  }
+  #project .proj_box .proj_txt ul li:nth-of-type(4) a:hover {
+    background: #eaeaea;
+    color: #000;
+  }
+  #project .proj_box .megaImg {
+    width: 68%;
+    top: 240px;
+    right: 110px;
   }
   #footer .footer_tit {
     font: 500 8vw/1 "Noto Sans KR";
@@ -578,9 +650,27 @@ header .btnMenu {
   }
 }
 @media screen and (max-width: 700px) {
+  header {
+    height: 55px;
+  }
+  header .myLogo {
+    margin: 2px 0 0 7px;
+  }
+  header .myLogo a img {
+    width: 90px;
+  }
+  header .gnb {
+    margin: 3px 7px 0 0;
+  }
+  header .gnb li {
+    margin-left: 20px;
+  }
+  header .gnb li a {
+    font: 12px/1 "Architects Daughter", cursive;
+    letter-spacing: 1px;
+  }
   #aboutMe .secM_1 {
     position: static;
-    margin: 100px 40%;
   }
   #aboutMe .secM_1 .pf_txt {
     margin: 30px 0;
@@ -608,25 +698,6 @@ header .btnMenu {
   }
 }
 @media screen and (max-width: 450px) {
-  header {
-    height: 55px;
-  }
-  header .myLogo {
-    margin: 2px 0 0 7px;
-  }
-  header .myLogo a img {
-    width: 90px;
-  }
-  header .gnb {
-    margin: 3px 7px 0 0;
-  }
-  header .gnb li {
-    margin-left: 20px;
-  }
-  header .gnb li a {
-    font: 12px/1 "Architects Daughter", cursive;
-    letter-spacing: 1px;
-  }
   #homePg .homeTit {
     top: 340px;
     left: 10vw;
@@ -653,19 +724,8 @@ header .btnMenu {
     text-align: center;
     letter-spacing: 5px;
   }
-  #aboutMe .secM_1 {
-    position: static;
-    margin-left: 32%;
-    margin-top: 150px;
-  }
   #aboutMe .secM_1 img {
     width: 180px;
-  }
-  #aboutMe .secM_1 .pf_txt {
-    margin: 30px 0;
-  }
-  #aboutMe .secM_1 .pf_txt .myName {
-    margin: 5px 0 10px;
   }
   #aboutMe .secM_1 .pf_txt .motto {
     position: static;
