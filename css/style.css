@@ -608,6 +608,49 @@ header .btnMenu {
   }
 }
 @media screen and (max-width: 450px) {
+  header {
+    height: 55px;
+  }
+  header .myLogo {
+    margin: 0 0 0 7px;
+  }
+  header .myLogo a img {
+    width: 90px;
+  }
+  header .gnb {
+    margin: 3px 7px 0 0;
+  }
+  header .gnb li {
+    margin-left: 20px;
+  }
+  header .gnb li a {
+    font: 12px/1 "Architects Daughter", cursive;
+    letter-spacing: 1px;
+  }
+  #homePg .homeTit {
+    left: 11vw;
+    font: 4.2vw/1.8 "Noto Sans KR";
+    text-align: center;
+  }
+  #homePg .homeTit p strong {
+    font-size: 5.5vw;
+  }
+  #homePg .homeTag1 {
+    top: 120px;
+    left: 11vw;
+    font: 1.5vw/1.4 "Noto Sans KR";
+    text-align: left;
+  }
+  #homePg .homeTag2 {
+    top: 500px;
+  }
+  #homePg .homeTag3 {
+    top: 710px;
+    right: 8vw;
+    font: bolder 13vw/1 "Noto Sans KR";
+    text-align: left;
+    letter-spacing: 10px;
+  }
   #aboutMe .secM_1 {
     position: static;
     margin-left: 32%;
@@ -626,10 +669,10 @@ header .btnMenu {
     position: static;
   }
   #aboutMe .secM_2 {
-    top: 450px;
+    display: none;
   }
   #aboutMe .secM_3 {
-    top: 450px;
+    display: none;
   }
   #footer .footer_tit {
     font: 500 8vw/1 "Noto Sans KR";
