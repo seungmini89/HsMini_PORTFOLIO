@@ -522,6 +522,7 @@ header {
     }
   }
 }
+
 @media screen and (max-width: 920px) {
   #homePg {
     .homeTit {
@@ -561,6 +562,88 @@ header {
         text-align: center;
         .motto {
           font: 2vw/1.5 "Nanum Pen Script";
+        }
+      }
+    }
+    .secM_2 {
+      top: 450px;
+    }
+    .secM_3 {
+      top: 450px;
+    }
+  }
+  #footer {
+    .footer_tit {
+      font: 500 8vw/1 'Noto Sans KR';
+    }
+    ul {
+      width: 50vw;
+      li i {
+        font-size: 80px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #aboutMe {
+    .secM_1 {
+      position: static;
+      margin: 100px 40%;
+      .pf_txt {
+        margin: 30px 0;
+        .myName {
+          margin: 5px 0 10px;
+        }
+        .motto {
+          position: static;
+          // margin-left: -30px;
+          // width: 200px;
+          // text-align: center;
+          // font: 2vw/1.5 "Nanum Pen Script";
+        }
+      }
+    }
+    .secM_2 {
+      top: 450px;
+    }
+    .secM_3 {
+      top: 450px;
+    }
+  }
+  #footer {
+    .footer_tit {
+      font: 500 8vw/1 'Noto Sans KR';
+    }
+    ul {
+      width: 50vw;
+      li i {
+        font-size: 80px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #aboutMe {
+    .secM_1 {
+      position: static;
+      margin-left: 32%;
+      margin-top: 150px;
+      img {
+        width: 180px;
+      }
+      .pf_txt {
+        margin: 30px 0;
+        .myName {
+          margin: 5px 0 10px;
+        }
+        .motto {
+          position: static;
+          // margin-left: -30px;
+          // width: 200px;
+          // text-align: center;
+          // font: 2vw/1.5 "Nanum Pen Script";
         }
       }
     }

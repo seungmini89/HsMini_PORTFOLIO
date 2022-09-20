@@ -577,5 +577,69 @@ header .btnMenu {
     font-size: 80px;
   }
 }
+@media screen and (max-width: 700px) {
+  #aboutMe .secM_1 {
+    position: static;
+    margin: 100px 40%;
+  }
+  #aboutMe .secM_1 .pf_txt {
+    margin: 30px 0;
+  }
+  #aboutMe .secM_1 .pf_txt .myName {
+    margin: 5px 0 10px;
+  }
+  #aboutMe .secM_1 .pf_txt .motto {
+    position: static;
+  }
+  #aboutMe .secM_2 {
+    top: 450px;
+  }
+  #aboutMe .secM_3 {
+    top: 450px;
+  }
+  #footer .footer_tit {
+    font: 500 8vw/1 "Noto Sans KR";
+  }
+  #footer ul {
+    width: 50vw;
+  }
+  #footer ul li i {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #aboutMe .secM_1 {
+    position: static;
+    margin-left: 32%;
+    margin-top: 150px;
+  }
+  #aboutMe .secM_1 img {
+    width: 180px;
+  }
+  #aboutMe .secM_1 .pf_txt {
+    margin: 30px 0;
+  }
+  #aboutMe .secM_1 .pf_txt .myName {
+    margin: 5px 0 10px;
+  }
+  #aboutMe .secM_1 .pf_txt .motto {
+    position: static;
+  }
+  #aboutMe .secM_2 {
+    top: 450px;
+  }
+  #aboutMe .secM_3 {
+    top: 450px;
+  }
+  #footer .footer_tit {
+    font: 500 8vw/1 "Noto Sans KR";
+  }
+  #footer ul {
+    width: 50vw;
+  }
+  #footer ul li i {
+    font-size: 80px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
