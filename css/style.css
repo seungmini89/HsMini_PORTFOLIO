@@ -612,7 +612,7 @@ header .btnMenu {
     height: 55px;
   }
   header .myLogo {
-    margin: 0 0 0 7px;
+    margin: 2px 0 0 7px;
   }
   header .myLogo a img {
     width: 90px;
@@ -628,28 +628,30 @@ header .btnMenu {
     letter-spacing: 1px;
   }
   #homePg .homeTit {
-    left: 11vw;
+    top: 340px;
+    left: 10vw;
     font: 4.2vw/1.8 "Noto Sans KR";
-    text-align: center;
   }
   #homePg .homeTit p strong {
-    font-size: 5.5vw;
+    font-size: 5.8vw;
   }
   #homePg .homeTag1 {
-    top: 120px;
-    left: 11vw;
-    font: 1.5vw/1.4 "Noto Sans KR";
+    top: 130px;
+    left: 10vw;
+    font: 2.5vw/1.6 "Noto Sans KR";
     text-align: left;
   }
   #homePg .homeTag2 {
-    top: 500px;
+    top: 250px;
+    right: 10vw;
+    font: 2.5vw/1.6 "Noto Sans KR";
   }
   #homePg .homeTag3 {
-    top: 710px;
-    right: 8vw;
-    font: bolder 13vw/1 "Noto Sans KR";
-    text-align: left;
-    letter-spacing: 10px;
+    top: 600px;
+    left: 10vw;
+    font: bolder 12vw/1.4 "Noto Sans KR";
+    text-align: center;
+    letter-spacing: 5px;
   }
   #aboutMe .secM_1 {
     position: static;
