@@ -212,6 +212,7 @@ header .btnMenu {
   color: #777;
 }
 #aboutMe .secM_2 ul .ht_txt {
+  text-align: justify;
   width: 60vw;
 }
 #aboutMe .secM_3 {
